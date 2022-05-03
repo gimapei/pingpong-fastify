@@ -1,0 +1,31 @@
+{
+  "name": "pingpong-fastify",
+  "version": "0.0.4",
+  "description": "simple ping pong http-server",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "pp-fastify": "./main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gimapei/pingpong-fastify.git"
+  },
+  "keywords": [
+    "ping",
+    "pong",
+    "echo"
+  ],
+  "author": "GimaPei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gimapei/pingpong-fastify/issues"
+  },
+  "homepage": "https://github.com/gimapei/pingpong-fastify#readme",
+  "dependencies": {
+    "fastify": "^3.29.0",
+    "nopt": "^5.0.0"
+  }
+}
